@@ -8,10 +8,18 @@ Our proposed system will translate UMD building abbreviations into full building
 This project is designed to work on modern web browsers across both desktop and mobile devices.
 - Google Chrome
 - Safari
+<<<<<<< HEAD
 - Microsoft Edge  
+=======
+- Microsoft Edge
+>>>>>>> ed84580ae3b20eb188559d5306c190c3bdd37224
 
 The application is intended to be mobile-friendly and should work on:
 - iOS devices using Safari or Chrome
 - Android devices using Chrome
 
+<<<<<<< HEAD
 ## Link to Developer Manual
+=======
+## Developer Manual
+>>>>>>> ed84580ae3b20eb188559d5306c190c3bdd37224
