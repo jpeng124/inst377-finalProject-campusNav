@@ -13,4 +13,5 @@ This project is designed to work on modern web browsers across both desktop and 
 The application is intended to be mobile-friendly and should work on:
 - iOS devices using Safari or Chrome
 - Android devices using Chrome
-- Link to Developer Manual
+
+## Developer Manual
