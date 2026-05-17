@@ -1,0 +1,2 @@
+Project Title: TerpNav
+UMD students, staff, or visitors always struggle with the abbrievation of building names on campusthat cannot be correctly showed up on maps (Google Map/ Apple Map). This project will translate the abbrievation of buildings names into full names, so the Google Map can read it correctly. This project saves time and 
