@@ -1,0 +1,65 @@
+<html>
+
+<head>
+    <title>TerpNav - Add New Abbreviation</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="add.js" defer></script>
+</head>
+
+<body>
+    <h1 class="welcome">Welcome TerpNav!</h1>
+
+    <nav>
+        <ul class="navbar">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="add.html">Add New Abbreviation</a></li>
+            <li><a href="help.html">Help Center</a></li>
+        </ul>
+    </nav>
+    <div class="main">
+        <h2>Add a new UMD building abbreviation to TerpNav.</h2>
+
+        <div class="search-box">
+            <h3>New Building Abbreviation</h3>
+
+            <form id="addForm">
+                <div class="form-row">
+                    <label for="abbrInput">Building Abbreviation</label>
+                    <input type="text" id="abbrInput" placeholder="Example: ESJ" required>
+                </div>
+
+                <div class="form-row">
+                    <label for="fullNameInput">Full Building Name</label>
+                    <input type="text" id="fullNameInput"
+                        placeholder="Example: Edward St. John Learning and Teaching Center" required>
+                </div>
+
+                <div class="form-row">
+                    <label for="categoryInput">Category</label>
+                    <select id="categoryInput">
+                        <option value="Building">Building</option>
+                        <option value="Dining">Dining</option>
+                        <option value="Library">Library</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-row">
+                    <label for="notesInput">Notes</label>
+                    <textarea id="notesInput"
+                        placeholder="Optional notes, such as location or nearby landmarks"></textarea>
+                </div>
+
+                <button class="button-50" type="submit">Add Abbreviation</button>
+            </form>
+        </div>
+
+        <div class="result-box">
+            <h2>Submission Status</h2>
+            <p id="message">Fill out the form to add a new abbreviation.</p>
+        </div>
+    </div>
+</body>
+
+</html>

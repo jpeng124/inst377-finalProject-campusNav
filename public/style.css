@@ -134,3 +134,137 @@
     max-width: 700px;
     text-align: center;
 }
+
+.history-box {
+    width: 75%;
+    max-width: 700px;
+    margin: 30px auto;
+    background-color: rgb(190, 186, 186);
+    border: 2px solid #222;
+    border-radius: 12px;
+    padding: 25px;
+}
+
+.history-box h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.history-box ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.history-box li {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.history-box li:last-child {
+    border-bottom: none;
+}
+
+
+/* Add New Abb Page */
+.form-row {
+    max-width: 700px;
+    margin: 0 auto 20px auto;
+    text-align: left;
+}
+
+.form-row label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.form-row input,
+.form-row select,
+.form-row textarea {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    border: 2px solid #222;
+    border-radius: 8px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.form-row textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+/* Help Page */
+.guide,
+.Questions {
+    max-width: 850px;
+    margin: 35px auto;
+    padding: 30px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: #000 6px 6px 0 0;
+}
+
+.guide h2,
+.Questions h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.guide p {
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 12px;
+}
+
+.Questions h3 {
+    font-size: 20px;
+    margin-top: 22px;
+    margin-bottom: 8px;
+}
+
+.Questions p {
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    padding: 12px;
+    border-left: 4px solid black;
+    border-radius: 6px;
+}
+/* About Page */
+.about {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+}
+
+.about h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.about-section {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: #000 6px 6px 0 0;
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+.about-section h3 {
+    font-size: 23px;
+    margin-bottom: 12px;
+}
+
+.about-section p {
+    font-size: 17px;
+    line-height: 1.7;
+}
