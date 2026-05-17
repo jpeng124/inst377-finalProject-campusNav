@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <title>TerpNav</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="" defer></script> -->
+</head>
+
+<body>
+    <h1 class="welcome">Welcome TerpNav!</h1>
+    <nav>
+        <ul class="navbar">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="help.html">Help Center</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main">
+        <h2>Search UMD building abbreviations and get directions quickly.</h2>
+        <div class="search-box">
+            <h3>Navigate to a Building</h3>
+            <div class="search-row">
+                <span class="search-icon">🔍</span>
+                <input type="text" id="buildingInput" placeholder="Input building abbreviation, e.g. 'esj'" required>
+            </div>
+        <button class="button-50" onclick="searchBuilding()">Search</button>
+        </div>
+        <div class="result-box">
+            <h2>Search result</h2>
+            <p id="quote">Loading...</p>
+        </div>
+    </div>
+    <div class="history-box">
+        <h2>Search History</h2>
+        <ul id="historyList"></ul>
+    </div>
+
+</body>
+
+</html>

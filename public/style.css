@@ -1,0 +1,136 @@
+.welcome {
+    background-color: rgb(128, 0, 0);
+    color: white;
+    padding: 20px;
+}
+
+.navbar {
+  list-style-type: none;
+  background-color: rgb(128, 0, 0);
+  margin: 10px 5px;
+  padding:5px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 22px;
+}
+
+.navbar li {
+  padding: 5px 10px;
+}
+
+.navbar li:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+.navbar li a {
+  color: rgb(247, 242, 242);
+  text-decoration: none;
+}
+
+.main {
+    width: 75%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.main h2 {
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.search-box {
+    background-color: white;
+    border: 2px solid #222;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+.search-box h3 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.search-row {
+    display: flex;
+    align-items: center;
+    border: 2px solid #222;
+    border-radius: 8px;
+    max-width: 700px;
+    margin: 0 auto 20px auto;
+}
+.search-row input {
+    flex: 1;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+.search-button {
+    padding: 12px 30px;
+    background-color: #e21833;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #b91529;
+}
+
+.button-50 {
+    appearance: button;
+    background-color: #000;
+    background-image: none;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-shadow: #fff 4px 4px 0 0, #000 4px 4px 0 1px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 10px 5px 10px 0;
+    overflow: visible;
+    padding: 12px 40px;
+    text-align: center;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.button-50:hover {
+    text-decoration: none;
+}
+
+.button-50:active {
+    box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+    outline: 0;
+}
+
+.button-50:not([disabled]):active {
+    box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+    transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+    .button-50 {
+        padding: 12px 50px;
+    }
+}
+
+.result-box {
+    background-color: rgb(224, 179, 179);
+    border: 2px solid #e21833;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 25px auto;
+    max-width: 700px;
+    text-align: center;
+}
