@@ -1,13 +1,14 @@
 const express = require("express");
 const bodyParser = require("body-parser");
+const dotenv = require('dotenv');
+
 const app = express();
-
 const port = 3001;
-
+dotenv.config()
 const supabaseClient = require("@supabase/supabase-js");
 
-const supabaseUrl = "https://ssjogrwhpweairbwcske.supabase.co";
-const supabaseKey = "sb_publishable_g91MM_UVP_uZnuqM5BprFQ_B9GRxDQ7";
+const supabaseUrl = process.env.SUPABASE_URL;
+const supabaseKey = process.env.SUPABASE_KEY;
 const supabase = supabaseClient.createClient(supabaseUrl, supabaseKey);
 
 app.use(bodyParser.json());
@@ -41,7 +42,7 @@ app.post("/umdbuilding", async (req, res) => {
   const fullName = req.body.full_name;
   const address = req.body.address;
   const mapUrl = req.body.map_url;
-  
+
 
   if (!abbreviation || !fullName || !address || !mapUrl) {
     res.statusCode = 400;
